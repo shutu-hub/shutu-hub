@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 210" role="img" aria-labelledby="title desc">
+  <title id="title">Algorithms and data structures</title>
+  <desc id="desc">A warm indigo algorithm illustration for the problem solving project.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#172554"/>
+      <stop offset="1" stop-color="#0f766e"/>
+    </linearGradient>
+    <linearGradient id="line" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#fbbf24"/>
+      <stop offset="1" stop-color="#f0abfc"/>
+    </linearGradient>
+  </defs>
+  <rect width="760" height="210" rx="18" fill="url(#bg)"/>
+  <g fill="none" stroke="url(#line)" stroke-width="3" opacity=".9">
+    <path d="M520 45h72v42h76v44h-76v43h-72v-43h-78V87h78z"/>
+    <path d="M478 108h-42m232-22 38-32m-38 78 38 31" stroke-dasharray="5 7"/>
+  </g>
+  <g fill="#fef3c7" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-size="14" font-weight="700">
+    <text x="514" y="71">A</text><text x="590" y="113">B</text><text x="514" y="157">C</text><text x="666" y="113">D</text>
+  </g>
+  <g font-family="-apple-system,BlinkMacSystemFont,Segoe UI,sans-serif" fill="#fff">
+    <text x="42" y="66" font-size="15" letter-spacing="3" fill="#fde68a">02 / PROBLEM SOLVING</text>
+    <text x="42" y="112" font-size="34" font-weight="700">Algorithm Notes</text>
+    <text x="44" y="143" font-size="16" fill="#ccfbf1">Luogu · LeetCode Hot 100 · Java</text>
+    <rect x="44" y="166" width="8" height="8" rx="4" fill="#fbbf24"/>
+    <text x="62" y="174" font-size="13" fill="#fef3c7">Patterns  /  Data Structures  /  Solutions</text>
+  </g>
+</svg>
