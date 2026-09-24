@@ -54,10 +54,14 @@ My focus is on Java and Go backends, real-time systems, and making LLM-powered w
 <table>
   <tr>
     <td width="95"><b>Backend</b></td>
-    <td><code>Java</code> <code>Go</code> <code>Spring Boot</code> <code>Netty</code> <code>Redis</code> <code>PostgreSQL</code></td>
+    <td><code>Java</code> <code>Go</code> <code>Spring Boot</code> <code>Netty</code></td>
   </tr>
   <tr>
-    <td><b>Frontend</b></td>
+    <td><b>Data</b></td>
+    <td><code>PostgreSQL</code> <code>MySQL</code> <code>Redis</code> <code>Qdrant</code></td>
+  </tr>
+  <tr>
+    <td><b>Frontend &amp; Desktop</b></td>
     <td><code>Vue 3</code> <code>TypeScript</code> <code>Vite</code> <code>Electron</code></td>
   </tr>
   <tr>
@@ -70,8 +74,8 @@ My focus is on Java and Go backends, real-time systems, and making LLM-powered w
 
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com?user=shutu-hub&hide_border=true&background=0D1117&border=30363D&stroke=30363D&ring=818CF8&fire=38BDF8&currStreakNum=E6EDF3&sideNums=E6EDF3&currStreakLabel=8B949E&sideLabels=8B949E&dates=6E7681" />
-    <img src="https://streak-stats.demolab.com?user=shutu-hub&hide_border=true&background=FFFFFF&border=D0D7DE&stroke=D0D7DE&ring=4F46E5&fire=0EA5E9&currStreakNum=1F2328&sideNums=1F2328&currStreakLabel=57606A&sideLabels=57606A&dates=6E7781" alt="GitHub contribution streak" />
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/shutu-hub/shutu-hub/profile-stats/assets/activity-dark.svg" />
+    <img src="https://raw.githubusercontent.com/shutu-hub/shutu-hub/profile-stats/assets/activity-light.svg" alt="GitHub activity: current streak, total contributions, and longest streak" width="100%" />
   </picture>
 </p>
 

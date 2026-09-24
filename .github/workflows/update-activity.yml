@@ -1,0 +1,53 @@
+name: Update profile activity
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - README.md
+      - scripts/generate-activity.mjs
+      - .github/workflows/update-activity.yml
+  schedule:
+    - cron: '17 2 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: profile-activity
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - run: node scripts/generate-activity.mjs
+      - name: Publish to profile-stats branch
+        shell: bash
+        run: |
+          cp assets/activity-light.svg "$RUNNER_TEMP/activity-light.svg"
+          cp assets/activity-dark.svg "$RUNNER_TEMP/activity-dark.svg"
+          git restore -- assets/activity-light.svg assets/activity-dark.svg
+
+          if git fetch origin profile-stats:refs/remotes/origin/profile-stats; then
+            git switch --track -c profile-stats origin/profile-stats
+          else
+            git switch --orphan profile-stats
+          fi
+
+          mkdir -p assets
+          cp "$RUNNER_TEMP/activity-light.svg" assets/activity-light.svg
+          cp "$RUNNER_TEMP/activity-dark.svg" assets/activity-dark.svg
+          git add assets/activity-light.svg assets/activity-dark.svg
+
+          if ! git diff --cached --quiet; then
+            git config user.name 'github-actions[bot]'
+            git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+            git commit -m 'chore: refresh profile activity'
+            git push origin HEAD:profile-stats
+          fi
