@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="860" height="174" viewBox="0 0 860 174" role="img" aria-label="GitHub stats">
+
+  
+  <defs>
+    <linearGradient id="s-bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#101A2E"/>
+      <stop offset="55%" stop-color="#0B1322"/>
+      <stop offset="100%" stop-color="#070B14"/>
+    </linearGradient>
+    <radialGradient id="s-glowA" cx="0" cy="0" r="1">
+      <stop offset="0%" stop-color="#38BDF8" stop-opacity="0.16"/>
+      <stop offset="100%" stop-color="#38BDF8" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="s-glowB" cx="1" cy="1" r="1">
+      <stop offset="0%" stop-color="#A78BFA" stop-opacity="0.18"/>
+      <stop offset="100%" stop-color="#A78BFA" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect x="0.5" y="0.5" width="859" height="173" rx="16" fill="url(#s-bg)" stroke="#1C2942"/>
+  <rect x="0.5" y="0.5" width="859" height="173" rx="16" fill="url(#s-glowA)"/>
+  <rect x="0.5" y="0.5" width="859" height="173" rx="16" fill="url(#s-glowB)"/>
+<text x="26" y="34" font-family="ui-sans-serif, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="15" font-weight="600" fill="#E6EDF3" letter-spacing="0.2">数据速览</text>
+<text x="834" y="34" text-anchor="end" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11" fill="#5A6982">updated 2026-09-24</text>
+<line x1="26" y1="52" x2="834" y2="52" stroke="#1C2942" stroke-width="1"/>
+
+  <g>
+    <rect x="26.00" y="68" width="124.67" height="80" rx="12" fill="#101B2E" stroke="#17233A"/>
+    <rect x="42" y="83" width="32" height="3" rx="1.5" fill="#FBBF24"/>
+    <text x="42" y="116" font-family="ui-sans-serif, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="26" font-weight="700" fill="#FBBF24" letter-spacing="-0.5">154</text>
+    <text x="42" y="136" font-family="ui-sans-serif, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" fill="#8B98B0">总 Star</text>
+  </g>
+  <g>
+    <rect x="162.67" y="68" width="124.67" height="80" rx="12" fill="#101B2E" stroke="#17233A"/>
+    <rect x="178.66666666666669" y="83" width="32" height="3" rx="1.5" fill="#38BDF8"/>
+    <text x="178.66666666666669" y="116" font-family="ui-sans-serif, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="26" font-weight="700" fill="#38BDF8" letter-spacing="-0.5">2</text>
+    <text x="178.66666666666669" y="136" font-family="ui-sans-serif, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" fill="#8B98B0">公开仓库</text>
+  </g>
+  <g>
+    <rect x="299.33" y="68" width="124.67" height="80" rx="12" fill="#101B2E" stroke="#17233A"/>
+    <rect x="315.33333333333337" y="83" width="32" height="3" rx="1.5" fill="#34D399"/>
+    <text x="315.33333333333337" y="116" font-family="ui-sans-serif, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="26" font-weight="700" fill="#34D399" letter-spacing="-0.5">969</text>
+    <text x="315.33333333333337" y="136" font-family="ui-sans-serif, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" fill="#8B98B0">年度贡献</text>
+  </g>
+  <g>
+    <rect x="436.00" y="68" width="124.67" height="80" rx="12" fill="#101B2E" stroke="#17233A"/>
+    <rect x="452.00000000000006" y="83" width="32" height="3" rx="1.5" fill="#A78BFA"/>
+    <text x="452.00000000000006" y="116" font-family="ui-sans-serif, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="26" font-weight="700" fill="#A78BFA" letter-spacing="-0.5">207</text>
+    <text x="452.00000000000006" y="136" font-family="ui-sans-serif, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" fill="#8B98B0">提交</text>
+  </g>
+  <g>
+    <rect x="572.67" y="68" width="124.67" height="80" rx="12" fill="#101B2E" stroke="#17233A"/>
+    <rect x="588.6666666666667" y="83" width="32" height="3" rx="1.5" fill="#F472B6"/>
+    <text x="588.6666666666667" y="116" font-family="ui-sans-serif, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="26" font-weight="700" fill="#F472B6" letter-spacing="-0.5">10</text>
+    <text x="588.6666666666667" y="136" font-family="ui-sans-serif, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" fill="#8B98B0">合并 PR</text>
+  </g>
+  <g>
+    <rect x="709.33" y="68" width="124.67" height="80" rx="12" fill="#101B2E" stroke="#17233A"/>
+    <rect x="725.3333333333335" y="83" width="32" height="3" rx="1.5" fill="#60A5FA"/>
+    <text x="725.3333333333335" y="116" font-family="ui-sans-serif, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="26" font-weight="700" fill="#60A5FA" letter-spacing="-0.5">3</text>
+    <text x="725.3333333333335" y="136" font-family="ui-sans-serif, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" fill="#8B98B0">关注者</text>
+  </g>
+</svg>
