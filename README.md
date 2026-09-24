@@ -61,7 +61,7 @@ My focus is on Java and Go backends, real-time systems, and making LLM-powered w
     <td><code>PostgreSQL</code> <code>MySQL</code> <code>Redis</code> <code>Qdrant</code></td>
   </tr>
   <tr>
-    <td><b>Frontend &amp; Desktop</b></td>
+    <td><b>Frontend</b></td>
     <td><code>Vue 3</code> <code>TypeScript</code> <code>Vite</code> <code>Electron</code></td>
   </tr>
   <tr>
