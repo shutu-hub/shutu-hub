@@ -58,7 +58,10 @@
       <br/><br/>
       <code>Java</code> <code>Spring Boot</code> <code>Netty</code> <code>Redis</code>
       <br/><br/>
-      <sub>★ 153 · Fork 2 · <a href="https://github.com/shutu-hub/devSphere">查看仓库 →</a></sub>
+      <img src="https://img.shields.io/badge/stars-153-6366F1?style=flat-square&labelColor=4338CA&logo=github&logoColor=white" alt="153 stars" />
+      <img src="https://img.shields.io/badge/forks-2-6366F1?style=flat-square&labelColor=4338CA&logo=github&logoColor=white" alt="2 forks" />
+      <br/><br/>
+      <sub><a href="https://github.com/shutu-hub/devSphere">查看仓库 →</a></sub>
     </td>
     <td width="50%" valign="top">
       <b>Luogu-and-LeetCode</b> <sub>· 算法题解</sub>
@@ -67,7 +70,9 @@
       <br/><br/>
       <code>Java</code> <code>Algorithm</code>
       <br/><br/>
-      <sub>★ 1 · <a href="https://github.com/shutu-hub/Luogu-and-LeetCode-algorithm-solutions">查看仓库 →</a></sub>
+      <img src="https://img.shields.io/badge/stars-1-6366F1?style=flat-square&labelColor=4338CA&logo=github&logoColor=white" alt="1 star" />
+      <br/><br/>
+      <sub><a href="https://github.com/shutu-hub/Luogu-and-LeetCode-algorithm-solutions">查看仓库 →</a></sub>
     </td>
   </tr>
 </table>
